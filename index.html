@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>通讯录</title>
+  <!--	<link href="http://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.css" rel="stylesheet">-->
+  <!--	<script src="http://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.js"></script>-->
+  <script src="jquery-1.11.3.js"></script>
+  <script src="index.js"></script>
+</head>
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "微软雅黑";
+  }
+  .one {
+    width: 500px;
+    height:500px;
+    background: red;
+  }
+  .two {
+    width: 500px;
+    height:500px;
+    background: #beffa6;
+  }
+  .three {
+    position: absolute;
+    left: 500px;
+    top: 0;
+    width: 500px;
+    height: 500px;
+  }
+  .three li {
+    height: 30px;
+    font-size: 25px;
+    color: #a7dbd8;
+    font-family: "微软雅黑";
+    overflow: hidden;
+  }
+  .aaa {
+    width: 200px;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 25px;
+  }
+  .name {
+    width: 200px;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 25px;
+  }
+  .btn {
+    width: 200px;
+    height: 200px;
+    background: azure;
+    text-align: center;
+    line-height: 200px;
+    font-size: 30px;
+  }
+  .enp {
+    width: 100px;
+    height: 100px;
+    background: lightgoldenrodyellow;
+  }
+</style>
+<body>
+<!--<div class="one"></div>-->
+<div class="two">
+  <input type="text" class="name" placeholder="姓名"><input type="text" class="aaa" placeholder="内容"><h2 class="bbb">输入框</h2>
+  <div class="btn">收取消息</div><div class="enp">清空聊天记录</div>
+</div>
+<ul class="three"></ul>
+</body>
+</html>
